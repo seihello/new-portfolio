@@ -1,10 +1,14 @@
-import { FaGithub, FaInstagram, FaRegEnvelope } from "react-icons/fa6";
+"use client";
+
+import ContactClipboardItem from "@/components/home/contact-clipboard-item";
+import ContactItem from "@/components/home/contact-item";
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-24">
-      <div className="flex flex-col gap-y-8">
-        <div className="flex items-stretch gap-x-4 text-white">
+    <main className="flex flex-col items-center justify-between bg-gray-900 p-24">
+      <div className="flex flex-col gap-y-8 text-white">
+        <div className="flex items-stretch gap-x-4">
           <img
             src="/img/profile.jpg"
             alt="profile"
@@ -18,9 +22,26 @@ export default function Home() {
               </p>
             </div>
             <div className="flex gap-x-2">
-              <FaGithub size={36} />
-              <FaInstagram size={36} />
-              <FaRegEnvelope size={36} />
+              <ContactItem
+                icon={<FaGithub size={36} />}
+                link="https://github.com/seihello"
+                tooltipText="GitHub"
+              />
+              <ContactItem
+                icon={<FaLinkedin size={36} />}
+                link="https://www.linkedin.com/in/seisuke/"
+                tooltipText="LinkedIn"
+              />
+              <ContactItem
+                icon={<FaInstagram size={36} />}
+                link="https://www.instagram.com/y_seisuke/"
+                tooltipText="Instagram"
+              />
+              <ContactClipboardItem
+                icon={<FaEnvelope size={36} />}
+                content="seisuke.ym@gmail.com"
+                tooltipText="Email"
+              />
             </div>
           </div>
         </div>
