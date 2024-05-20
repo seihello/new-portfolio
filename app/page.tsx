@@ -5,7 +5,7 @@ import ContactItem from "@/components/home/contact-item";
 import ExperiencesSection from "@/components/home/experiences/experiences-section";
 import ProjectsSection from "@/components/home/projects/projects-section";
 import SkillsSection from "@/components/home/skills/skills-section";
-import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Home() {
   return (
@@ -22,8 +22,10 @@ export default function Home() {
               className="w-48 rounded-lg"
             />
             <div className="flex flex-col justify-between gap-y-4">
-              <div className="flex flex-col gap-y-2">
-                <h1 className="text-4xl font-semibold">Seisuke Yamada</h1>
+              <div className="flex flex-col">
+                <h1 className="font-rajdhani text-5xl font-semibold">
+                  Seisuke Yamada
+                </h1>
                 <p className="text-gray-400">
                   Full-stack Web Developer | Software Engineer
                 </p>

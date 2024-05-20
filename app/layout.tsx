@@ -1,8 +1,21 @@
+import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Rajdhani, Roboto } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+
+const rajdhani = Rajdhani({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-rajdhani",
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  variable: "--font-roboto",
+});
 
 export const metadata: Metadata = {
   title: "Seisuke's Portfolio",
@@ -16,7 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body
+        className={cn(
+          "font-roboto",
+          inter.variable,
+          rajdhani.variable,
+          roboto.variable,
+        )}
+      >
         {children}
         <footer className="z-50 bg-primary py-2 text-center text-sm text-white">
           <p>©Seisuke Yamada All rights reserved.</p>

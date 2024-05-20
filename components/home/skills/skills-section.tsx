@@ -5,7 +5,7 @@ export default function SkillsSection() {
   return (
     <div className="z-10 flex justify-center bg-gray-100 py-12">
       <div className="flex w-full max-w-7xl flex-col items-start gap-y-8 p-4 text-gray-800">
-        <h2 className="w-full text-4xl font-semibold">Skills</h2>
+        <h2 className="font-rajdhani w-full text-4xl font-bold">Skills</h2>
         <div className="flex flex-col gap-y-8">
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col gap-y-2">

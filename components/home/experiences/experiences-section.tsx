@@ -6,7 +6,7 @@ export default function ExperiencesSection() {
     <div className="z-10 flex justify-center bg-gray-100 py-12">
       <div className="flex w-full max-w-7xl flex-col items-start gap-y-16 p-4 text-gray-800">
         <div className="flex w-full flex-col gap-y-2">
-          <h2 className="text-4xl font-semibold">Work Experience</h2>
+          <h2 className="font-rajdhani text-4xl font-bold">Work Experience</h2>
           <div className="flex w-full flex-col">
             {workExperiences.map((workExperience, index) => (
               <ExperienceItem
@@ -24,7 +24,7 @@ export default function ExperiencesSection() {
           </div>
         </div>
         <div className="flex w-full flex-col gap-y-2">
-          <h2 className="w-full text-4xl font-semibold">Education</h2>
+          <h2 className="font-rajdhani w-full text-4xl font-bold">Education</h2>
           <div className="flex w-full flex-col">
             {educationExperiences.map((educationExperience, index) => (
               <ExperienceItem
