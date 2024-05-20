@@ -9,7 +9,10 @@ import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 export default function Home() {
   return (
     <main className="flex flex-col items-stretch justify-between">
-      <div className="flex justify-center bg-gray-900 py-24">
+      <div className="fixed z-0 h-screen bg-black object-cover">
+        <img src="img/hero.jpg" />
+      </div>
+      <div className="z-10 flex justify-center bg-gradient-to-b from-transparent from-0% to-black py-24 lg:from-30%">
         <div className="flex max-w-7xl flex-col gap-y-16 p-4 text-white">
           <div className="flex items-stretch gap-x-4">
             <img
