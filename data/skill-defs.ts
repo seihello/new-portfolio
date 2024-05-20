@@ -190,6 +190,11 @@ const skillDefs = [
     icon: "mantine",
   },
   {
+    name: "LangChain",
+    color: "#AADA3C",
+    icon: "langchain",
+  },
+  {
     name: "Agile Dev",
     color: "#3C3F40",
     icon: "agile",

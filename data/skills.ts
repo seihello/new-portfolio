@@ -25,11 +25,12 @@ const skills = [
       "JQuery",
       "Node.js",
       "React Native",
+      "LangChain",
     ],
   },
   {
     category: "Database",
-    values: ["MySQL", "PostgreSQL", "Cassandra", "Neo4j"],
+    values: ["MySQL", "PostgreSQL", "Cassandra"],
   },
   {
     category: "Tool/Platform",
@@ -40,7 +41,6 @@ const skills = [
       "Joomla!",
       "Jenkins",
       "Redmine",
-      "Figma",
     ],
   },
   {
