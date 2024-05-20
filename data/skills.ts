@@ -43,10 +43,10 @@ const skills = [
       "Redmine",
     ],
   },
-  {
-    category: "OS",
-    values: ["Windows", "macOS", "Linux"],
-  },
+  // {
+  //   category: "OS",
+  //   values: ["Windows", "macOS", "Linux"],
+  // },
   {
     category: "Other",
     values: ["OOP", "UML", "DevOps", "Agile Dev", "SEMI Standards"],
