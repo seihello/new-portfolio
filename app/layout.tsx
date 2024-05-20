@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {children}
-        <footer className="z-50 bg-primary text-center text-sm text-white">
+        <footer className="z-50 bg-primary py-2 text-center text-sm text-white">
           <p>©Seisuke Yamada All rights reserved.</p>
         </footer>
       </body>
