@@ -6,6 +6,7 @@ type Props = {
   startDate: string;
   endDate: string;
   descriptions: string[];
+  isFinal: boolean;
 };
 
 export default function ExperienceItem({
@@ -16,10 +17,13 @@ export default function ExperienceItem({
   startDate,
   endDate,
   descriptions,
+  isFinal,
 }: Props) {
   return (
     <div className="relative flex flex-col py-4">
-      <div className="absolute left-3 top-[42px] hidden h-[calc(100%-24px)] w-[2px] -translate-x-1/2 bg-gray-300 sm:block" />
+      <div
+        className={`absolute left-3 top-[42px] hidden h-[calc(100%-24px)] w-[2px] -translate-x-1/2 sm:block ${isFinal ? "from-gray-300 to-transparent bg-gradient-to-b" : "bg-gray-300"}`}
+      />
       <div className="flex flex-col items-center justify-between gap-x-2 sm:flex-row sm:justify-between">
         {/* <div className="flex size-6 items-center justify-center rounded-full bg-gray-800 opacity-50">
           <div className="size-4 rounded-full border-4 border-gray-200 bg-gray-800" />
