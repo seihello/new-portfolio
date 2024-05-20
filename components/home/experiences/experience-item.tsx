@@ -1,3 +1,5 @@
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+
 type Props = {
   organization: string;
   country: string;
@@ -22,7 +24,7 @@ export default function ExperienceItem({
   return (
     <div className="relative flex flex-col py-4">
       <div
-        className={`absolute left-3 top-[42px] hidden h-[calc(100%-24px)] w-[2px] -translate-x-1/2 sm:block ${isFinal ? "from-gray-300 to-transparent bg-gradient-to-b" : "bg-gray-300"}`}
+        className={`absolute left-3 top-[42px] hidden h-[calc(100%-24px)] w-[2px] -translate-x-1/2 sm:block ${isFinal ? "bg-gradient-to-b from-gray-300 to-transparent" : "bg-gray-300"}`}
       />
       <div className="flex flex-col items-center justify-between gap-x-2 sm:flex-row sm:justify-between">
         {/* <div className="flex size-6 items-center justify-center rounded-full bg-gray-800 opacity-50">
@@ -42,8 +44,11 @@ export default function ExperienceItem({
         </p>
       </div>
       <div className="flex flex-col gap-y-2 pl-0 sm:pl-[33px]">
-        <div className="flex items-center gap-x-4">
-          <p className="w-full font-semibold text-gray-600">{organization}</p>
+        <div className="flex items-center gap-x-2">
+          <p className="font-semibold text-gray-600">{organization}</p>
+          <a href={link} target="_blank">
+            <FaArrowUpRightFromSquare size={12} />
+          </a>
         </div>
         <ul className="list-disc pl-6">
           {descriptions.map((description, index) => (

@@ -24,9 +24,7 @@ export default function ExperiencesSection() {
           </div>
         </div>
         <div className="flex w-full flex-col gap-y-2">
-          <h2 className="w-full text-4xl font-semibold">
-            Education Experience
-          </h2>
+          <h2 className="w-full text-4xl font-semibold">Education</h2>
           <div className="flex w-full flex-col">
             {educationExperiences.map((educationExperience, index) => (
               <ExperienceItem
