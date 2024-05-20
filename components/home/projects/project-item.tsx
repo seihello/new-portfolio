@@ -1,17 +1,27 @@
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { FaArrowUpRightFromSquare, FaGithub } from "react-icons/fa6";
+
 type Props = {
   title: string;
   description: string;
   img: string;
-  gitLink: string;
-  demoLink: string;
+  link: string;
+  linkLabel: string;
+  repo: string;
 };
 
 export default function ProjectItem({
   title,
   description,
   img,
-  gitLink,
-  demoLink,
+  link,
+  linkLabel,
+  repo,
 }: Props) {
   return (
     <div className="flex w-full flex-grow flex-col gap-y-2 overflow-hidden rounded-xl bg-white md:w-[405px]">
@@ -29,7 +39,35 @@ export default function ProjectItem({
         `}
       </style>
       <div className="p-4">
-        <p className="text-lg font-semibold">{title}</p>
+        <div className="flex items-center gap-x-2">
+          <p className="text-lg font-semibold">{title}</p>
+          <div className="flex items-center gap-x-1">
+            {link.length > 0 && (
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <a href={link} target="_blank">
+                      <FaArrowUpRightFromSquare size={14} />
+                    </a>
+                  </TooltipTrigger>
+                  <TooltipContent>{linkLabel}</TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            )}
+            {repo.length > 0 && (
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger>
+                    <a href={repo} target="_blank">
+                      <FaGithub size={18} />
+                    </a>
+                  </TooltipTrigger>
+                  <TooltipContent>Repository</TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            )}
+          </div>
+        </div>
         <p className="text-sm text-gray-600">{description}</p>
       </div>
     </div>
