@@ -13,12 +13,12 @@ const config: Config = {
     extend: {
       colors: {
         background: "#ffffff",
-        foreground: "#030712",
-        primary: "#002060",
+        foreground: "#222222",
+        primary: "#1d1d1d",
         "primary-foreground": "#f9fafb",
         border: "#e5e7eb",
         input: "#e5e7eb",
-        ring: "#002060", // same as primary
+        ring: "#002878", // same as primary
         secondary: "#f3f4f6",
         "secondary-foreground": "#111827",
         destructive: "#dd224f",

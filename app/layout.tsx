@@ -16,7 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <footer className="z-50 bg-primary text-sm text-center text-white">
+          <p>©Seisuke Yamada All rights reserved.</p>
+        </footer>
+      </body>
     </html>
   );
 }

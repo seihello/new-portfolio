@@ -9,7 +9,7 @@ import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 export default function Home() {
   return (
     <main className="flex flex-col items-stretch justify-between text-center sm:text-left">
-      <div className="fixed z-0 h-screen bg-black object-cover">
+      <div className="fixed -z-50 h-screen bg-black object-cover">
         <img src="img/hero.jpg" />
       </div>
       <div className="z-10 flex justify-center bg-gradient-to-b from-transparent from-0% to-black py-24 lg:from-30%">
@@ -54,21 +54,21 @@ export default function Home() {
           <div className="flex flex-col gap-y-4">
             <p>
               {`Hi, I'm Seisuke, a software engineer/full-stack web developer with a
-              Bachelor's degree in Computer Science and 5+ years of experience in
-              software development. I have been dedicated to team goals with a passion
-              for building efficient, maintainable, and user-friendly systems. This
-              experience has provided me with the opportunity to acquire a wide range
-              of skills and experience, spanning from large-scale embedded
-              applications to web development.`}
+                Bachelor's degree in Computer Science and 5+ years of experience in
+                software development. I have been dedicated to team goals with a passion
+                for building efficient, maintainable, and user-friendly systems. This
+                experience has provided me with the opportunity to acquire a wide range
+                of skills and experience, spanning from large-scale embedded
+                applications to web development.`}
             </p>
             <p>
               {`Throughout my ten-year journey in the
-              field of software engineering, I have overcome numerous challenges in
-              both technical and managerial capacities, enhancing my problem-solving
-              skills along the way. With the experience I bring, coupled with my
-              refined problem-solving abilities and steadfast perseverance when
-              encountering difficulties, I'm eager to contribute significantly to your
-              team!`}
+                field of software engineering, I have overcome numerous challenges in
+                both technical and managerial capacities, enhancing my problem-solving
+                skills along the way. With the experience I bring, coupled with my
+                refined problem-solving abilities and steadfast perseverance when
+                encountering difficulties, I'm eager to contribute significantly to your
+                team!`}
             </p>
           </div>
         </div>
