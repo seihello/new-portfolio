@@ -2,6 +2,7 @@
 
 import ContactClipboardItem from "@/components/home/contact-clipboard-item";
 import ContactItem from "@/components/home/contact-item";
+import ProjectsSection from "@/components/home/projects/projects-section";
 import SkillsSection from "@/components/home/skills/skills-section";
 import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa6";
 
@@ -70,6 +71,7 @@ export default function Home() {
         </div>
       </div>
       <SkillsSection />
+      <ProjectsSection />
     </main>
   );
 }
