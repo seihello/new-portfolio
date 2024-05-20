@@ -39,11 +39,11 @@ export default function Home() {
                   link="https://www.linkedin.com/in/seisuke/"
                   tooltipText="LinkedIn"
                 />
-                <ContactItem
+                {/* <ContactItem
                   icon={<FaInstagram size={36} />}
                   link="https://www.instagram.com/y_seisuke/"
                   tooltipText="Instagram"
-                />
+                /> */}
                 <ContactClipboardItem
                   icon={<FaEnvelope size={36} />}
                   content="seisuke.ym@gmail.com"

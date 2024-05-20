@@ -23,8 +23,8 @@ export default function ProjectItem({
       <style>
         {`
           .project-image {
-            -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
-            mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to bottom, black 60%, #FFFFFF33 100%);
+            mask-image: linear-gradient(to bottom, black 60%, #FFFFFF33 100%);
           }
         `}
       </style>

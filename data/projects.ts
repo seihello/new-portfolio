@@ -114,7 +114,7 @@ const projects = [
   {
     name: "Strategy Game",
     description:
-      "A Two-player chess-like strategy game where the objective is to infiltrate your opponent's territory for victory. Users can implement their own coding strategies for gameplay.",
+      "A two-player chess-like strategy game where the objective is to infiltrate your opponent's territory for victory. Users can implement their own coding strategies for gameplay.",
     demoLink: "",
     gitLink: "https://github.com/seihello/AnimalMaster",
     image: "animalmaster.png",
