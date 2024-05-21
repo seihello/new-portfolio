@@ -45,16 +45,10 @@ export default function ExperienceItem({
       </div>
       <div className="flex flex-col gap-y-2 pl-0 sm:pl-[33px]">
         <div className="flex items-center justify-center gap-x-2 sm:justify-start">
-          <p className="relative text-gray-600">
-            <span>{organization}</span>
-            <a
-              href={link}
-              target="_blank"
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-5"
-            >
-              <FaArrowUpRightFromSquare size={12} />
-            </a>
-          </p>
+          <p className="text-gray-600">{organization}</p>
+          <a href={link} target="_blank">
+            <FaArrowUpRightFromSquare size={12} />
+          </a>
         </div>
         <ul className="list-disc pl-6">
           {descriptions.map((description, index) => (
