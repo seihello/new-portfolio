@@ -41,7 +41,7 @@ export default function RootLayout({
         )}
       >
         {children}
-        <footer className="z-50 bg-primary py-2 text-center text-sm text-white">
+        <footer className="z-50 bg-black py-2 text-center text-sm text-white">
           <p>©Seisuke Yamada All rights reserved.</p>
         </footer>
       </body>
