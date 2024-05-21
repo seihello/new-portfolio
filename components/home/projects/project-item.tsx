@@ -24,7 +24,7 @@ export default function ProjectItem({
   repo,
 }: Props) {
   return (
-    <div className="flex w-full flex-grow flex-col gap-y-2 overflow-hidden rounded-xl bg-white md:w-[405px]">
+    <div className="flex w-full flex-grow flex-col overflow-hidden rounded-xl bg-white md:w-[405px]">
       <img
         src={`/img/project_screenshots/${img}`}
         alt=""
