@@ -39,7 +39,7 @@ export default function ProjectItem({
         `}
       </style>
       <div className="p-4">
-        <div className="flex items-center gap-x-2">
+        <div className="flex items-center justify-center gap-x-2 sm:justify-start">
           <p className="text-lg font-semibold">{title}</p>
           <div className="flex items-center gap-x-1">
             {link.length > 0 && (
