@@ -45,7 +45,9 @@ export default function ExperienceItem({
       </div>
       <div className="flex flex-col gap-y-2 pl-0 sm:pl-[33px]">
         <div className="flex items-center justify-center gap-x-2 sm:justify-start">
-          <p className="text-gray-600">{organization}</p>
+          <p className="font-semibold text-gray-600 sm:font-normal">
+            {organization}
+          </p>
           <a href={link} target="_blank">
             <FaArrowUpRightFromSquare size={12} />
           </a>
