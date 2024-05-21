@@ -37,7 +37,7 @@ export default function ExperienceItem({
               className="min-w-8"
             />
           </div>
-          <h3 className="text-lg font-semibold">{title}</h3>
+          <h3 className="whitespace-nowrap text-lg font-semibold">{title}</h3>
         </div>
         <p>
           {startDate} - {endDate}
@@ -45,10 +45,16 @@ export default function ExperienceItem({
       </div>
       <div className="flex flex-col gap-y-2 pl-0 sm:pl-[33px]">
         <div className="flex items-center justify-center gap-x-2 sm:justify-start">
-          <p className="text-gray-600">{organization}</p>
-          <a href={link} target="_blank">
-            <FaArrowUpRightFromSquare size={12} />
-          </a>
+          <p className="relative text-gray-600">
+            <span>{organization}</span>
+            <a
+              href={link}
+              target="_blank"
+              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-5"
+            >
+              <FaArrowUpRightFromSquare size={12} />
+            </a>
+          </p>
         </div>
         <ul className="list-disc pl-6">
           {descriptions.map((description, index) => (
