@@ -5,7 +5,7 @@ const workExperiences = [
     link: "https://summations.com/",
     title: "Full Stack Web Developer",
     startDate: "Nov. 2023",
-    endDate: "Present",
+    endDate: "Sep. 2024",
     descriptions: [
       "Develop an educational web platform for university students and professors to enhance their learning process using Next.js and Supabase.",
       "Utilize Large Language Models(LLM) and Retrieval-Augmented Generation(RAG) to craft lecture contents.",
