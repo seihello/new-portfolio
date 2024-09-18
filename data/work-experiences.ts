@@ -7,10 +7,10 @@ const workExperiences = [
     startDate: "Nov. 2023",
     endDate: "Sep. 2024",
     descriptions: [
-      "Develop an educational web platform for university students and professors to enhance their learning process using Next.js and Supabase.",
-      "Utilize Large Language Models(LLM) and Retrieval-Augmented Generation(RAG) to craft lecture contents.",
-      "Design UI/UX that allows users to operate comfortably and conveniently.",
-      "Build a robust database that enables efficient data retrieval and allows for data manipulation based on permissions.",
+      "Developed an educational web platform for university students and professors to enhance their learning process using Next.js and Supabase.",
+      "Utilized Large Language Models(LLM) and Retrieval-Augmented Generation(RAG) to craft lecture contents.",
+      "Designed UI/UX that allows users to operate comfortably and conveniently.",
+      "Built a robust database that enables efficient data retrieval and allows for data manipulation based on permissions.",
     ],
   },
   {
