@@ -41,7 +41,7 @@ const projects = [
   {
     name: "Designglish",
     description:
-      "An iOS application where web designers/developers can learn English technical vocabulary by testing the words in flashcards. It will be available on App Store soon!",
+      "An iOS application where web designers/developers can learn English technical vocabulary by testing the words in flashcards. Check it out on the iOS App Store!",
     link: "https://apps.apple.com/jp/app/designglish/id6476836989?l=en-US",
     linkLabel: "Published App",
     repo: "https://github.com/seihello/designglish",
