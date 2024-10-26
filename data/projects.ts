@@ -52,11 +52,11 @@ const projects = [
     name: "Issue Manager",
     description:
       "A multi-page application that enables you to efficiently manage the status and schedule of tasks for your projects.",
-    link: "https://fridgefy.seisuke.info/",
+    link: "https://app.montabase.com",
     linkLabel: "Live Site",
-    repo: "https://github.com/seihello/fridgefy",
-    image: "fridgefy.png",
-    skills: ["HTML", "CSS", "TypeScript", "React", "Next.js", "Firebase"],
+    repo: "https://github.com/seihello/montabase-issue-manager",
+    image: "montabase.png",
+    skills: ["Next.js", "TypeScript", "Tailwind", "Supabase", "LangChain"],
   },
   // {
   //   name: "Compass Card",
