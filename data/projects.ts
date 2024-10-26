@@ -49,9 +49,9 @@ const projects = [
     skills: ["React Native", "TypeScript", "Supabase"],
   },
   {
-    name: "Recipe Search",
+    name: "Issue Manager",
     description:
-      "A multi-page web application that users can manage ingredients they have in fridge and search for recipes with filters.",
+      "A multi-page application that enables you to efficiently manage the status and schedule of tasks for your projects.",
     link: "https://fridgefy.seisuke.info/",
     linkLabel: "Live Site",
     repo: "https://github.com/seihello/fridgefy",
