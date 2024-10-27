@@ -44,6 +44,30 @@ const projects = [
   },
   {
     en: {
+      name: "Educational Platform",
+      description:
+        "A web application designed to enhance learning for university professors and students. It includes features such as research paper search, assignment submission, and lecture material creation support powered by AI.",
+    },
+    jp: {
+      name: "教育機関向けプラットフォーム",
+      description:
+        "主に大学の教授や生徒らの学習や情報共有を効率化させるWebアプリケーション。論文の検索や課題の提出、AIを活用した講義資料の作成支援などの機能を備えている。",
+    },
+    link: "https://www.summations.com/",
+    linkLabel: "LP",
+    repo: "",
+    image: "summations_lp.png",
+    skills: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind",
+      "PostgreSQL",
+      "Supabase",
+      "LangChain",
+    ],
+  },
+  {
+    en: {
       name: "PDF Chat",
       description:
         "A single page web application that you can chat with AI and ask questions about a PDF file you uploaded",
@@ -57,6 +81,23 @@ const projects = [
     linkLabel: "Live Site",
     repo: "https://github.com/seihello/pdf-chat",
     image: "pdf_chat.png",
+    skills: ["Next.js", "TypeScript", "Tailwind", "Supabase", "LangChain"],
+  },
+  {
+    en: {
+      name: "Issue Manager",
+      description:
+        "A multi-page web application that enables you to efficiently manage the status and schedule of tasks for your projects.",
+    },
+    jp: {
+      name: "タスク管理サイト",
+      description:
+        "プロジェクトに紐づくタスクの進捗状況やスケジュールを管理することができるWebアプリケーション。ユーザが操作ができるUI/UXを目指している。",
+    },
+    link: "https://app.montabase.com",
+    linkLabel: "Live Site",
+    repo: "https://github.com/seihello/montabase-issue-manager",
+    image: "montabase.png",
     skills: ["Next.js", "TypeScript", "Tailwind", "Supabase", "LangChain"],
   },
   {
@@ -75,23 +116,6 @@ const projects = [
     repo: "https://github.com/seihello/designglish",
     image: "designglish.png",
     skills: ["React Native", "TypeScript", "Supabase"],
-  },
-  {
-    en: {
-      name: "Issue Manager",
-      description:
-        "A multi-page web application that enables you to efficiently manage the status and schedule of tasks for your projects.",
-    },
-    jp: {
-      name: "タスク管理サイト",
-      description:
-        "プロジェクトに紐づくタスクの進捗状況やスケジュールを管理することができるWebアプリケーション。ユーザが操作ができるUI/UXを目指している。",
-    },
-    link: "https://app.montabase.com",
-    linkLabel: "Live Site",
-    repo: "https://github.com/seihello/montabase-issue-manager",
-    image: "montabase.png",
-    skills: ["Next.js", "TypeScript", "Tailwind", "Supabase", "LangChain"],
   },
   // {
   //   name: "Compass Card",
