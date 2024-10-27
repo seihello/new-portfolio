@@ -86,16 +86,16 @@ const projects = [
   //   image: "everydayenglish.png",
   //   skills: ["Python", "Kivy"]
   // },
-  {
-    name: "Weather App",
-    description:
-      "A single-page website that displays weather information. It provides current weather, a 5-day forecast, and 3-hourly forecasts. Users can not only check the weather at their current location but also bookmark their favorite cities.",
-    link: "https://weather.seisuke.info/",
-    linkLabel: "Live Site",
-    repo: "https://github.com/seihello/weather-app",
-    image: "weatherapp.png",
-    skills: ["HTML", "CSS", "Sass", "JavaScript", "JQuery"],
-  },
+  // {
+  //   name: "Weather App",
+  //   description:
+  //     "A single-page website that displays weather information. It provides current weather, a 5-day forecast, and 3-hourly forecasts. Users can not only check the weather at their current location but also bookmark their favorite cities.",
+  //   link: "https://weather.seisuke.info/",
+  //   linkLabel: "Live Site",
+  //   repo: "https://github.com/seihello/weather-app",
+  //   image: "weatherapp.png",
+  //   skills: ["HTML", "CSS", "Sass", "JavaScript", "JQuery"],
+  // },
   // {
   //   name: "Tiny Links",
   //   description:
@@ -124,26 +124,26 @@ const projects = [
   //   image: "chatbot.png",
   //   skills: ["Python", "Selenium"]
   // },
-  {
-    name: "Strategy Game",
-    description:
-      "A two-player chess-like strategy game where the objective is to infiltrate your opponent's territory for victory. Users can implement their own coding strategies for gameplay.",
-    link: "",
-    linkLabel: "",
-    repo: "https://github.com/seihello/AnimalMaster",
-    image: "animalmaster.png",
-    skills: ["Python", "TKinter"],
-  },
-  {
-    name: "Reversi",
-    description:
-      "This Reversi game allows you to play against a computer opponent, engage in two-player matches, and even observe computer vs. computer battles.",
-    link: "",
-    linkLabel: "",
-    repo: "https://github.com/seihello/Reversi",
-    image: "reversi.png",
-    skills: ["Python", "TKinter"],
-  },
+  // {
+  //   name: "Strategy Game",
+  //   description:
+  //     "A two-player chess-like strategy game where the objective is to infiltrate your opponent's territory for victory. Users can implement their own coding strategies for gameplay.",
+  //   link: "",
+  //   linkLabel: "",
+  //   repo: "https://github.com/seihello/AnimalMaster",
+  //   image: "animalmaster.png",
+  //   skills: ["Python", "TKinter"],
+  // },
+  // {
+  //   name: "Reversi",
+  //   description:
+  //     "This Reversi game allows you to play against a computer opponent, engage in two-player matches, and even observe computer vs. computer battles.",
+  //   link: "",
+  //   linkLabel: "",
+  //   repo: "https://github.com/seihello/Reversi",
+  //   image: "reversi.png",
+  //   skills: ["Python", "TKinter"],
+  // },
   // {
   //   name: "CSS Gallery",
   //   description: "A web page showcasing the designed CSS modules.",
