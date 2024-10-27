@@ -1,8 +1,15 @@
 const projects = [
   {
-    name: "Transport Controller",
-    description:
-      "A large-scale application that controls thousands of machines transporting products in a semiconductor factory. It finds optimal transport routes, efficiently dispatches tasks, and manages transportation status.",
+    en: {
+      name: "Transport Controller",
+      description:
+        "A large-scale application that controls thousands of machines transporting products in a semiconductor factory. It finds optimal transport routes, efficiently dispatches tasks, and manages transportation status.",
+    },
+    jp: {
+      name: "半導体工場向け 搬送制御アプリケーション",
+      description:
+        "工場の中を走行する幾千もの搬送装置を制御するソフトウェア。最適な装置の剪定や搬送経路の探索を行い、可能な限り短時間で搬送することで、工場全体の生産効率を向上させる。",
+    },
     link: "https://www.muratec.net/cfa/products/",
     linkLabel: "Detail",
     repo: "",
@@ -19,9 +26,16 @@ const projects = [
   //   skills: ["HTML", "CSS", "TypeScript", "React", "Next.js"]
   // },
   {
-    name: "Corporate Website",
-    description:
-      "A responsive corporate website consisting of multiple pages. Features include news feeds, subscriptions, and stock price information display.",
+    en: {
+      name: "Corporate Website",
+      description:
+        "A responsive corporate website consisting of multiple pages. Features include news feeds, subscriptions, and stock price information display.",
+    },
+    jp: {
+      name: "コーポレートサイト",
+      description:
+        "複数のページから構成される企業紹介サイト。購読機能やRSSの配信、株式情報の表示などの機能を持つ。レスポンシブ表示に対応。",
+    },
     link: "https://planetventuresinc.com/index.php",
     linkLabel: "Live Site",
     repo: "",
@@ -29,9 +43,16 @@ const projects = [
     skills: ["HTML", "CSS", "Sass", "JavaScript", "PHP", "Joomla!"],
   },
   {
-    name: "PDF Chat",
-    description:
-      "A single page web application that you can chat with AI and ask questions about a PDF file you uploaded",
+    en: {
+      name: "PDF Chat",
+      description:
+        "A single page web application that you can chat with AI and ask questions about a PDF file you uploaded",
+    },
+    jp: {
+      name: "PDFチャット",
+      description:
+        "PDFをアップロードし、そのファイルの内容に関してAIに尋ねることができるアプリケーション。",
+    },
     link: "https://pdf-chat.seisuke.info/",
     linkLabel: "Live Site",
     repo: "https://github.com/seihello/pdf-chat",
@@ -39,9 +60,16 @@ const projects = [
     skills: ["Next.js", "TypeScript", "Tailwind", "Supabase", "LangChain"],
   },
   {
-    name: "Designglish",
-    description:
-      "An iOS application where web designers/developers can learn English technical vocabulary by testing the words in flashcards. Check it out on the iOS App Store!",
+    en: {
+      name: "Vocabulary Learning",
+      description:
+        "An iOS application where web designers/developers can learn English technical vocabulary by testing the words in flashcards. Check it out on the iOS App Store!",
+    },
+    jp: {
+      name: "技術者向け語学学習アプリ",
+      description:
+        "デザイナーやプログラマのが、英語の専門用語を学習することができるiOSアプリ。フラッシュカード形式で表示され、例文や類語なども同時に確認できる。App Storeにて公開中。",
+    },
     link: "https://apps.apple.com/jp/app/designglish/id6476836989?l=en-US",
     linkLabel: "Published App",
     repo: "https://github.com/seihello/designglish",
@@ -49,9 +77,16 @@ const projects = [
     skills: ["React Native", "TypeScript", "Supabase"],
   },
   {
-    name: "Issue Manager",
-    description:
-      "A multi-page application that enables you to efficiently manage the status and schedule of tasks for your projects.",
+    en: {
+      name: "Issue Manager",
+      description:
+        "A multi-page web application that enables you to efficiently manage the status and schedule of tasks for your projects.",
+    },
+    jp: {
+      name: "タスク管理サイト",
+      description:
+        "プロジェクトに紐づくタスクの進捗状況やスケジュールを管理することができるWebアプリケーション。ユーザが操作ができるUI/UXを目指している。",
+    },
     link: "https://app.montabase.com",
     linkLabel: "Live Site",
     repo: "https://github.com/seihello/montabase-issue-manager",
