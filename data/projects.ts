@@ -111,7 +111,7 @@ const projects = [
       description:
         "デザイナーやプログラマのが、英語の専門用語を学習することができるiOSアプリ。フラッシュカード形式で表示され、例文や類語なども同時に確認できる。App Storeにて公開中。",
     },
-    link: "https://apps.apple.com/jp/app/designglish/id6476836989?l=en-US",
+    link: "https://apps.apple.com/jp/app/designglish/id6476836989?l=en-US&platform=iphone",
     linkLabel: "Published App",
     repo: "https://github.com/seihello/designglish",
     image: "designglish.png",
