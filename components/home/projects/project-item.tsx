@@ -28,7 +28,8 @@ export default function ProjectItem({
       <img
         src={`/img/project_screenshots/${img}`}
         alt=""
-        className="project-image h-[240px] object-cover"
+        className="project-image h-[240px] cursor-pointer object-cover"
+        onClick={() => window.open(link, "_blank")}
       />
       <style>
         {`
