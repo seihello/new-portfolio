@@ -6,7 +6,7 @@ const workExperiences = [
       startDate: "Nov. 2023",
       endDate: "Sep. 2024",
       descriptions: [
-        "Developed an educational web application for universities using TypeScript and Next.js.",
+        "Developed a learning management platform for universities using TypeScript and Next.js.",
         "Engineered a cloud-based feature that automatically generates contents using LLM and Retrieval-Augmented Generation (RAG).",
         "Created a feature that enables users to upload PDF files and add annotations to be shared in real-time.",
         "Architected a PostgreSQL database that ensures robust security and efficient data manipulation.",
