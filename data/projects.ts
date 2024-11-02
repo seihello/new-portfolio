@@ -44,12 +44,12 @@ const projects = [
   },
   {
     en: {
-      name: "Educational Platform",
+      name: "Learning Management System",
       description:
         "A web application designed to enhance learning for university professors and students. It includes features such as research paper search, assignment submission, and lecture material creation support powered by AI.",
     },
     jp: {
-      name: "教育機関向けプラットフォーム",
+      name: "教育機関向け学習管理システム",
       description:
         "主に大学の教授や生徒らの学習や情報共有を効率化させるWebアプリケーション。論文の検索や課題の提出、AIを活用した講義資料の作成支援などの機能を備えている。",
     },
