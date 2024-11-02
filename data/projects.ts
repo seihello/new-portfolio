@@ -27,23 +27,6 @@ const projects = [
   // },
   {
     en: {
-      name: "Corporate Website",
-      description:
-        "A responsive corporate website consisting of multiple pages. Features include news feeds, subscriptions, and stock price information display.",
-    },
-    jp: {
-      name: "コーポレートサイト",
-      description:
-        "複数のページから構成される企業紹介サイト。購読機能やRSSの配信、株式情報の表示などの機能を持つ。レスポンシブ表示に対応。",
-    },
-    link: "https://planetventuresinc.com/index.php",
-    linkLabel: "Live Site",
-    repo: "",
-    image: "planet.png",
-    skills: ["HTML", "CSS", "Sass", "JavaScript", "PHP", "Joomla!"],
-  },
-  {
-    en: {
       name: "Learning Management System",
       description:
         "A web application designed to enhance learning for university professors and students. It includes features such as research paper search, assignment submission, and lecture material creation support powered by AI.",
@@ -65,6 +48,23 @@ const projects = [
       "Supabase",
       "LangChain",
     ],
+  },
+  {
+    en: {
+      name: "Corporate Website",
+      description:
+        "A responsive corporate website consisting of multiple pages. Features include news feeds, subscriptions, and stock price information display.",
+    },
+    jp: {
+      name: "コーポレートサイト",
+      description:
+        "複数のページから構成される企業紹介サイト。購読機能やRSSの配信、株式情報の表示などの機能を持つ。レスポンシブ表示に対応。",
+    },
+    link: "https://planetventuresinc.com/index.php",
+    linkLabel: "Live Site",
+    repo: "",
+    image: "planet.png",
+    skills: ["HTML", "CSS", "Sass", "JavaScript", "PHP", "Joomla!"],
   },
   {
     en: {
