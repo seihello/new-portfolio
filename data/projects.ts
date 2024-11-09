@@ -94,7 +94,7 @@ const projects = [
       description:
         "プロジェクトに紐づくタスクの進捗状況やスケジュールを管理することができるWebアプリケーション。ユーザが操作ができるUI/UXを目指している。",
     },
-    link: "https://app.montabase.com",
+    link: "https://montabase.seisuke.info",
     linkLabel: "Live Site",
     repo: "https://github.com/seihello/montabase-issue-manager",
     image: "montabase.png",
