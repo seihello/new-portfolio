@@ -1,6 +1,11 @@
 const skills = [
   {
-    category: "Computer Language",
+    en: {
+      category: "Computer Language",
+    },
+    jp: {
+      category: "プログラミング言語",
+    },
     values: [
       "C",
       "C++",
@@ -16,7 +21,12 @@ const skills = [
     ],
   },
   {
-    category: "Framework/Library",
+    en: {
+      category: "Framework/Library",
+    },
+    jp: {
+      category: "フレームワーク/ライブラリ",
+    },
     values: [
       "React",
       "Next.js",
@@ -29,26 +39,34 @@ const skills = [
     ],
   },
   {
-    category: "Database",
+    en: {
+      category: "Database",
+    },
+    jp: {
+      category: "フレームワーク/ライブラリ",
+    },
     values: ["MySQL", "PostgreSQL", "Cassandra"],
   },
   {
-    category: "Tool/Platform",
-    values: [
-      "Git",
-      "Firebase",
-      "Supabase",
-      "Joomla!",
-      "Jenkins",
-      "Redmine",
-    ],
+    en: {
+      category: "Tool/Platform",
+    },
+    jp: {
+      category: "ツール/プラットフォーム",
+    },
+    values: ["Git", "Firebase", "Supabase", "Joomla!", "Jenkins", "Redmine"],
   },
   // {
   //   category: "OS",
   //   values: ["Windows", "macOS", "Linux"],
   // },
   {
-    category: "Other",
+    en: {
+      category: "Other",
+    },
+    jp: {
+      category: "その他",
+    },
     values: ["OOP", "UML", "DevOps", "Agile Dev", "SEMI Standards"],
   },
 ];

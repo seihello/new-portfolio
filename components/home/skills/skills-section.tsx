@@ -1,7 +1,12 @@
 import SkillItem from "@/components/home/skills/skill-item";
 import skillDefs from "@/data/skill-defs";
 import skills from "@/data/skills";
-export default function SkillsSection() {
+
+type Props = {
+  isEnglish: boolean;
+};
+
+export default function SkillsSection({ isEnglish }: Props) {
   return (
     <div className="z-10 flex justify-center bg-gray-100 py-12">
       <div className="flex w-full max-w-7xl flex-col items-start gap-y-8 p-4 text-gray-800">
@@ -12,7 +17,7 @@ export default function SkillsSection() {
           {skills.map((skill, index) => (
             <div key={index} className="flex flex-col gap-y-2">
               <h3 className="text-lg font-semibold text-gray-800">
-                {skill.category}
+                {isEnglish ? skill.en.category : skill.jp.category}
               </h3>
               <div className="flex flex-wrap justify-center gap-4 sm:justify-start">
                 {skill.values.map((value, index) => (
