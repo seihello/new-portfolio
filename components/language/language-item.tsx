@@ -7,7 +7,7 @@ type Props = {
 export default function LanguageItem({ country, isSelected, onClick }: Props) {
   return (
     <div
-      className={`flex h-6 w-8 items-center justify-center overflow-hidden bg-white object-cover ${isSelected ? "outline -outline-offset-2 outline-yellow-500" : ""}`}
+      className={`flex h-6 w-8 cursor-pointer items-center justify-center overflow-hidden rounded-sm bg-white object-cover ${isSelected ? "outline -outline-offset-2 outline-yellow-500" : ""}`}
       onClick={onClick}
     >
       <img
