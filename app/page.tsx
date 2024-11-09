@@ -14,7 +14,7 @@ export default function Home() {
   const [isEnglish, setIsEnglish] = useState(true);
   return (
     <main className="flex flex-col items-stretch justify-between text-center sm:text-left">
-      <LanguageSwitch isEnglish={isEnglish} />
+      <LanguageSwitch isEnglish={isEnglish} setIsEnglish={setIsEnglish} />
       <div className="fixed -z-50 h-screen bg-black object-cover">
         <img src="img/hero.jpg" />
       </div>
