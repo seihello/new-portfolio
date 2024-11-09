@@ -66,7 +66,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <SkillsSection />
+      <SkillsSection isEnglish={isEnglish} />
       <ProjectsSection isEnglish={isEnglish} />
       <ExperiencesSection isEnglish={isEnglish} />
     </main>
