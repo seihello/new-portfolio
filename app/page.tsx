@@ -5,6 +5,7 @@ import ContactItem from "@/components/home/contact-item";
 import ExperiencesSection from "@/components/home/experiences/experiences-section";
 import ProjectsSection from "@/components/home/projects/projects-section";
 import SkillsSection from "@/components/home/skills/skills-section";
+import LanguageSwitch from "@/components/language/language-switch";
 import introduction from "@/data/introduction";
 import { useState } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
@@ -13,6 +14,7 @@ export default function Home() {
   const [isEnglish, setIsEnglish] = useState(true);
   return (
     <main className="flex flex-col items-stretch justify-between text-center sm:text-left">
+      <LanguageSwitch isEnglish={isEnglish} />
       <div className="fixed -z-50 h-screen bg-black object-cover">
         <img src="img/hero.jpg" />
       </div>
