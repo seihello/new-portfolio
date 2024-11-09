@@ -43,7 +43,7 @@ const skills = [
       category: "Database",
     },
     jp: {
-      category: "フレームワーク/ライブラリ",
+      category: "データベース",
     },
     values: ["MySQL", "PostgreSQL", "Cassandra"],
   },
