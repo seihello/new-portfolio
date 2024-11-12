@@ -8,7 +8,7 @@ const projects = [
     jp: {
       name: "半導体工場向け 搬送制御アプリケーション",
       description:
-        "工場の中を走行する幾千もの搬送装置を制御するソフトウェア。最適な装置の剪定や搬送経路の探索を行い、可能な限り短時間で搬送することで、工場全体の生産効率を向上させる。",
+        "工場の中を走行する何千もの搬送装置を制御するソフトウェア。最適な装置の選定や搬送経路の探索を行い、可能な限り短時間で搬送することで、工場全体の生産効率を向上させる。",
     },
     link: "https://www.muratec.net/cfa/products/",
     linkLabel: "Detail",
@@ -75,7 +75,7 @@ const projects = [
     jp: {
       name: "PDFチャット",
       description:
-        "PDFをアップロードし、そのファイルの内容に関してAIに尋ねることができるアプリケーション。",
+        "PDFをアップロードし、そのファイルの内容に関してAIに尋ねることができるアプリケーション。大規模言語モデル(LLM)と検索拡張生成(RAG)を使用。",
     },
     link: "https://pdf-chat.seisuke.info/",
     linkLabel: "Live Site",
@@ -90,7 +90,7 @@ const projects = [
         "A multi-page web application that enables you to efficiently manage the status and schedule of tasks for your projects.",
     },
     jp: {
-      name: "タスク管理サイト",
+      name: "タスク管理",
       description:
         "プロジェクトに紐づくタスクの進捗状況やスケジュールを管理することができるWebアプリケーション。ユーザが操作ができるUI/UXを目指している。",
     },
@@ -109,7 +109,7 @@ const projects = [
     jp: {
       name: "技術者向け語学学習アプリ",
       description:
-        "デザイナーやプログラマのが、英語の専門用語を学習することができるiOSアプリ。フラッシュカード形式で表示され、例文や類語なども同時に確認できる。App Storeにて公開中。",
+        "デザイナーやプログラマが、英語の専門用語を学習することができるiOSアプリ。フラッシュカード形式で表示され、例文や類語なども同時に確認できる。App Storeにて公開中。",
     },
     link: "https://apps.apple.com/jp/app/designglish/id6476836989?l=en-US&platform=iphone",
     linkLabel: "Published App",

@@ -19,7 +19,7 @@ const workExperiences = [
       startDate: "2023年11月",
       endDate: "2024年9月",
       descriptions: [
-        "TypeScriptとNext.jsを用いた教育機関向けアプリケーションの開発",
+        "TypeScriptとNext.jsを用いた大学向け学習管理システムの開発",
         "大規模言語モデル(LLM)と検索拡張生成(RAG)を活用した教育資料の作成支援",
         "ユーザがPDFファイルをアップロードし、そこへ追加したアノテーションをリアルタイムで共有できる機能の作成",
         "PostgreSQLのデータベース設計と、セキュリティとデータ操作効率の向上",
