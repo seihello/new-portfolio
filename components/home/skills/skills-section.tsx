@@ -20,16 +20,16 @@ export default function SkillsSection({ isEnglish }: Props) {
                 {isEnglish ? skill.en.category : skill.jp.category}
               </h3>
               <div className="flex flex-wrap justify-center gap-4 sm:justify-start">
-                {skill.values.map((value, index) => (
-                  <SkillItem
-                    key={index}
-                    title={value}
-                    img={
-                      skillDefs.find((skillDef) => skillDef.name === value)
-                        ?.icon || ""
-                    }
-                  />
-                ))}
+                {skill.values.map((value, index) => {
+                  const skill = skillDefs[value as keyof typeof skillDefs];
+                  return (
+                    <SkillItem
+                      key={index}
+                      title={!isEnglish && "jp" in skill ? skill.jp : value}
+                      img={skill.icon}
+                    />
+                  );
+                })}
               </div>
             </div>
           ))}

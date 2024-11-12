@@ -1,260 +1,204 @@
-const skillDefs = [
-  {
-    name: "C",
+const skillDefs = {
+  C: {
     color: "#384AAB",
     icon: "c",
   },
-  {
-    name: "C++",
+  "C++": {
     color: "#00599C",
     icon: "cpp",
   },
-  {
-    name: "Python",
+  Python: {
     color: "#376D9C",
     icon: "python",
   },
-  {
-    name: "Java",
+  Java: {
     color: "#DB1D22",
     icon: "java",
   },
-  {
-    name: "HTML",
+  HTML: {
     color: "#E04D1D",
     icon: "html",
   },
-  {
-    name: "CSS",
+  CSS: {
     color: "#0177BD",
     icon: "css",
   },
-  {
-    name: "Sass",
+  Sass: {
     color: "#CD6699",
     icon: "sass",
   },
-  {
-    name: "JavaScript",
+  JavaScript: {
     color: "#d1b800",
     icon: "js",
   },
-  {
-    name: "TypeScript",
+  TypeScript: {
     color: "#007ACC",
     icon: "ts",
   },
-  {
-    name: "JQuery",
+  JQuery: {
     color: "#FF3C02",
     icon: "jquery",
   },
-  {
-    name: "React",
+  React: {
     color: "#00D8FE",
     icon: "react",
   },
-  {
-    name: "Next.js",
+  "Next.js": {
     color: "#242938",
     icon: "nextjs",
   },
-  {
-    name: "Node.js",
+  "Node.js": {
     color: "#537B3E",
     icon: "nodejs",
   },
-  {
-    name: "Express",
+  Express: {
     color: "#2C2C2C",
     icon: "express",
   },
-  {
-    name: "PHP",
+  PHP: {
     color: "#242938",
     icon: "php",
   },
-  {
-    name: "React Native",
+  "React Native": {
     color: "#00D8FE",
     icon: "react",
   },
-  {
-    name: "LangChain",
-    color: "#1C3D3C",
-    icon: "langchain",
-  },
-  {
-    name: "Swift",
+  Swift: {
     color: "#E84F36",
     icon: "swift",
   },
-  {
-    name: "Dart",
+  Dart: {
     color: "#00D2B8",
     icon: "dart",
   },
-  {
-    name: "SQL",
+  SQL: {
     color: "#2472C1",
     icon: "sql",
   },
-  {
-    name: "MySQL",
+  MySQL: {
     color: "#242938",
     icon: "mysql",
   },
-  {
-    name: "PostgreSQL",
+  PostgreSQL: {
     color: "#336790",
     icon: "postgresql",
   },
-  {
-    name: "SQLite",
+  SQLite: {
     color: "#242938",
     icon: "sqlite",
   },
-  {
-    name: "Jenkins",
+  Jenkins: {
     color: "#D33732",
     icon: "jenkins",
   },
-  {
-    name: "Windows",
+  Windows: {
     color: "#024FDE",
     icon: "windows",
   },
-  {
-    name: "macOS",
+  macOS: {
     color: "#3C3F40",
     icon: "mac",
   },
-  {
-    name: "Linux",
+  Linux: {
     color: "#FFC007",
     icon: "linux",
   },
-  {
-    name: "Jenkins",
-    color: "#D33732",
-    icon: "jenkins",
-  },
-  {
-    name: "Cassandra",
+  Cassandra: {
     color: "#1287B1",
     icon: "cassandra",
   },
-  {
-    name: "Neo4j",
-    color: "#0287F7",
+  Neo4j: {
+    color: "#858585",
     icon: "neo4j",
   },
-  {
-    name: "Vue.js",
+  "Vue.js": {
     color: "#3FB883",
     icon: "vuejs",
   },
-  {
-    name: "Tailwind",
+  Tailwind: {
     color: "#14BCB8",
     icon: "tailwind",
   },
-  {
-    name: "Redux",
+  Redux: {
     color: "#764ABC",
     icon: "redux",
   },
-  {
-    name: "Flutter",
+  Flutter: {
     color: "#01B5F8",
     icon: "flutter",
   },
-  {
-    name: "Selenium",
+  Selenium: {
     color: "#59B943",
     icon: "selenium",
   },
-  {
-    name: "Kivy",
+  Kivy: {
     color: "#3C3F40",
     icon: "kivy",
   },
-  {
-    name: "TKinter",
+  TKinter: {
     color: "#3C3F40",
     icon: "tkinter",
   },
-  {
-    name: "Mantine",
+  Mantine: {
     color: "#329AEF",
     icon: "mantine",
   },
-  {
-    name: "LangChain",
+  LangChain: {
     color: "#AADA3C",
     icon: "langchain",
   },
-  {
-    name: "Agile Dev",
+  "Agile Dev": {
+    jp: "アジャイル開発",
     color: "#3C3F40",
     icon: "agile",
   },
-  {
-    name: "DevOps",
+  DevOps: {
     color: "#4e1900",
     icon: "devops",
   },
-  {
-    name: "Redmine",
+  Redmine: {
     color: "#A91500",
     icon: "redmine",
   },
-  {
-    name: "Git",
+  Git: {
     color: "#F03C2D",
     icon: "git",
   },
-  {
-    name: "SEMI Standards",
+  "SEMI Standards": {
+    jp: "SEMI規格",
     color: "#447016",
     icon: "semi",
   },
-  {
-    name: "UML",
+  UML: {
     color: "#3b007b",
     icon: "uml",
   },
-  {
-    name: "OOP",
+  OOP: {
+    jp: "オブジェクト指向",
     color: "#3b007b",
     icon: "oop",
   },
-  {
-    name: "Joomla!",
+  "Joomla!": {
     color: "#006EB6",
     icon: "joomla",
   },
-  {
-    name: "Figma",
+  Figma: {
     color: "#A259FF",
     icon: "figma",
   },
-  {
-    name: "Firebase",
+  Firebase: {
     color: "#d1b800",
     icon: "firebase",
   },
-  {
-    name: "Supabase",
+  Supabase: {
     color: "#3DCF8E",
     icon: "supabase",
   },
-  {
-    name: "ChatGPT",
+  ChatGPT: {
     color: "#0BA37F",
     icon: "chatgpt",
   },
-];
+};
 
 export const filterSkills = [
   "All",
