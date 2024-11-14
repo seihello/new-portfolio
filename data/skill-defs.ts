@@ -123,6 +123,10 @@ const skillDefs = {
     color: "#764ABC",
     icon: "redux",
   },
+  Recoil: {
+    color: "#000000",
+    icon: "recoil",
+  },
   Flutter: {
     color: "#01B5F8",
     icon: "flutter",
