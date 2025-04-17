@@ -11,7 +11,7 @@ import { useState } from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function Home() {
-  const [isEnglish, setIsEnglish] = useState(true);
+  const [isEnglish, setIsEnglish] = useState(false);
   return (
     <main className="flex flex-col items-stretch justify-between text-center sm:text-left">
       <LanguageSwitch isEnglish={isEnglish} setIsEnglish={setIsEnglish} />
