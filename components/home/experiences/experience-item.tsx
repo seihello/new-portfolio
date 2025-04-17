@@ -3,7 +3,7 @@ import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 type Props = {
   organization: string;
   country: string;
-  link: string;
+  link?: string;
   title: string;
   startDate: string;
   endDate: string;
@@ -44,9 +44,11 @@ export default function ExperienceItem({
         </div>
         <div className="flex items-center justify-center gap-x-2 pl-0 sm:justify-start sm:pl-[33px]">
           <p>{organization}</p>
-          <a href={link} target="_blank">
-            <FaArrowUpRightFromSquare size={12} />
-          </a>
+          {link && (
+            <a href={link} target="_blank">
+              <FaArrowUpRightFromSquare size={12} />
+            </a>
+          )}
         </div>
         <p className="italic text-gray-600 sm:hidden">
           {startDate} - {endDate}
