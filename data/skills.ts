@@ -55,7 +55,15 @@ const skills = [
     jp: {
       category: "ツール/プラットフォーム",
     },
-    values: ["Git", "Firebase", "Supabase", "Joomla!", "Jenkins", "Redmine"],
+    values: [
+      "Git",
+      "Auth0",
+      "Firebase",
+      "Supabase",
+      "Joomla!",
+      "Jenkins",
+      "Redmine",
+    ],
   },
   // {
   //   category: "OS",

@@ -202,6 +202,10 @@ const skillDefs = {
     color: "#0BA37F",
     icon: "chatgpt",
   },
+  Auth0: {
+    color: "#000000",
+    icon: "auth0",
+  },
 };
 
 export const filterSkills = [
