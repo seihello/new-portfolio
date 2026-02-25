@@ -1,14 +1,14 @@
 const educationExperiences = [
   {
     en: {
-      organization: "Cornerstone International Community College of Canada",
+      organization: "Cornerstone Community College",
       title: "Diploma: Web Development",
       startDate: "Jan. 2023",
       endDate: "Dec. 2024",
       descriptions: [],
     },
     jp: {
-      organization: "Cornerstone International Community College of Canada",
+      organization: "Cornerstone Community College",
       title: "Web Development",
       startDate: "2023年1月",
       endDate: "2024年12月",
